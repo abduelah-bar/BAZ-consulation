@@ -67,9 +67,9 @@ export default function FaqPage() {
                     <Accordion type="single" collapsible className="w-full">
                         {faqItems.general.map(item => (
                             <AccordionItem value={item.q} key={item.q}>
-                                <AccordionTrigger className="text-left font-semibold text-lg">{t(item.q)}</AccordionTrigger>
+                                <AccordionTrigger className="text-left font-semibold text-lg">{t(item.q as any)}</AccordionTrigger>
                                 <AccordionContent className="text-muted-foreground text-base">
-                                {t(item.a)}
+                                {t(item.a as any)}
                                 </AccordionContent>
                             </AccordionItem>
                         ))}
@@ -81,9 +81,9 @@ export default function FaqPage() {
                     <Accordion type="single" collapsible className="w-full">
                         {faqItems.eligibility.map(item => (
                             <AccordionItem value={item.q} key={item.q}>
-                                <AccordionTrigger className="text-left font-semibold text-lg">{t(item.q)}</AccordionTrigger>
+                                <AccordionTrigger className="text-left font-semibold text-lg">{t(item.q as any)}</AccordionTrigger>
                                 <AccordionContent className="text-muted-foreground text-base">
-                                {t(item.a)}
+                                {t(item.a as any)}
                                 </AccordionContent>
                             </AccordionItem>
                         ))}
@@ -95,9 +95,9 @@ export default function FaqPage() {
                     <Accordion type="single" collapsible className="w-full">
                         {faqItems.benefits.map(item => (
                             <AccordionItem value={item.q} key={item.q}>
-                                <AccordionTrigger className="text-left font-semibold text-lg">{t(item.q)}</AccordionTrigger>
+                                <AccordionTrigger className="text-left font-semibold text-lg">{t(item.q as any)}</AccordionTrigger>
                                 <AccordionContent className="text-muted-foreground text-base">
-                                {t(item.a)}
+                                {t(item.a as any)}
                                 </AccordionContent>
                             </AccordionItem>
                         ))}
@@ -109,9 +109,9 @@ export default function FaqPage() {
                     <Accordion type="single" collapsible className="w-full">
                         {faqItems.business.map(item => (
                             <AccordionItem value={item.q} key={item.q}>
-                                <AccordionTrigger className="text-left font-semibold text-lg">{t(item.q)}</AccordionTrigger>
+                                <AccordionTrigger className="text-left font-semibold text-lg">{t(item.q as any)}</AccordionTrigger>
                                 <AccordionContent className="text-muted-foreground text-base">
-                                {t(item.a)}
+                                {t(item.a as any)}
                                 </AccordionContent>
                             </AccordionItem>
                         ))}
