@@ -1,0 +1,124 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "A stunning, wide-angle shot of the Riyadh skyline at dusk, focusing on the King Abdullah Financial District (KAFD).",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Riyadh_Skyline.jpg/960px-Riyadh_Skyline.jpg?20180519222351",
+      "imageHint": "riyadh skyline"
+    },
+    {
+      "id": "about-program",
+      "description": "An elegantly dressed person looking out over the Riyadh cityscape from a high-rise balcony.",
+      "imageUrl": "https://www.shutterstock.com/image-photo/saudi-man-wearing-traditional-white-600nw-2650824475.jpg",
+      "imageHint": "saudi professional view"
+    },
+    {
+      "id": "cta-section",
+      "description": "An aerial shot of Jeddah's modern waterfront, symbolizing lifestyle and new horizons.",
+      "imageUrl": "https://www.arabnews.com/sites/default/files/styles/n_670_395/public/2025/01/26/4567556-217324472.jpg?itok=j-RDOMji",
+      "imageHint": "jeddah waterfront"
+    },
+    {
+      "id": "about-us-hero",
+      "description": "A powerful, architectural ground-level shot looking up at the Al Faisaliah Tower in Riyadh.",
+      "imageUrl": "https://waditrip.sa/wp-content/uploads/2018/10/%D9%81%D9%82%D8%A7%D9%82%D8%AA%D9%82%D9%81%D8%AA%D9%82%D8%B5%D8%AA.jpg",
+      "imageHint": "riyadh architecture"
+    },
+    {
+      "id": "our-company",
+      "description": "A bright, airy photo of a contemporary office meeting room with a diverse group of professionals.",
+      "imageUrl": "https://www.shutterstock.com/image-photo/panoramic-view-motivated-team-intensely-600nw-2420665069.jpg",
+      "imageHint": "saudi business team"
+    },
+    {
+      "id": "our-vision",
+      "description": "The striking modern architecture of the Ithra building (King Abdulaziz Center for World Culture).",
+      "imageUrl": "https://images.adsttc.com/media/images/5b56/5695/f197/cc57/6a00/0023/large_jpg/-_Featured_Image.jpg?1532384879",
+      "imageHint": "saudi culture architecture"
+    },
+    {
+      "id": "services-hero",
+      "description": "A dynamic shot of the Kingdom Centre's sky bridge at night, with vibrant city lights.",
+      "imageUrl": "https://as1.ftcdn.net/jpg/04/42/42/34/1000_F_442423407_HKSU9kHT2KdELJEbrChGNRZINh2eIuVN.jpg",
+      "imageHint": "riyadh night"
+    },
+    {
+      "id": "service-page-hero",
+      "description": "A clean, professional aerial view of a major highway interchange in Riyadh, symbolizing smooth pathways to business success.",
+      "imageUrl": "https://www.dair.es/wp-content/uploads/proy-abubakr-slide3.jpg",
+      "imageHint": "riyadh highway"
+    },
+    {
+      "id": "service-business-setup",
+      "description": "Two professionals, one in traditional Saudi attire, shaking hands in a modern office.",
+      "imageUrl": "https://cdn.arabsstock.com/uploads/images/362650/image-362650-friendships-acquaintances-building-social-relationships-thumbnail.webp",
+      "imageHint": "saudi business handshake"
+    },
+    {
+      "id": "service-legal",
+      "description": "A grand, modern building representing government or law in Saudi Arabia.",
+      "imageUrl": "https://lh4.googleusercontent.com/proxy/sZbMTOZjTnsEkrMhe-0awRHTU47h92a2ARPf7riiNYN1uOXYhl7qpHSBp6pva4Slr0BwEDlllRL8JeS9MKXgm-F08C4o4ck1PHGC1M6XsvOCZ4Jh-KSaKR2JRY-hFIHR3tpGf-VK2_ycgewhBOWAiQb51bW1vXRBHCJlAZh-n6mUBA",
+      "imageHint": "saudi government building"
+    },
+    {
+      "id": "service-market-analysis",
+      "description": "A professional analyzing financial data with the Saudi flag in the background, representing the Tadawul stock market.",
+      "imageUrl": "https://assets.isu.pub/document-structure/231010082309-d221ca6285520cb7fb8ca31101652652/v1/2bc71ffa10e83300e13ae302719736b1.jpeg",
+      "imageHint": "saudi finance market"
+    },
+    {
+      "id": "service-investment-opportunities",
+      "description": "A high-tech solar panel farm in the Saudi desert, symbolizing investment in renewable energy and Vision 2030.",
+      "imageUrl": "https://i0.wp.com/solarquarter.com/wp-content/uploads/2022/10/32-1.png?fit=1200%2C675&ssl=1",
+      "imageHint": "saudi solar energy"
+    },
+    {
+      "id": "faq-hero",
+      "description": "The clean, modern interior of a Saudi airport or public building, representing clarity and structure.",
+      "imageUrl": "https://static.wixstatic.com/media/17fadc_82db2e374a924e3d88cee8a69ad4b9ec~mv2.jpg/v1/fill/w_1920,h_1080,al_c/17fadc_82db2e374a924e3d88cee8a69ad4b9ec~mv2.jpg",
+      "imageHint": "modern saudi interior"
+    },
+    {
+      "id": "contact-hero",
+      "description": "Professionals in a business meeting.",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0594/9472/7851/files/1_dd549ba0-7fd5-4cdc-a755-5993c3a7c1d1.jpg?v=1683612843",
+      "imageHint": "business meeting team"
+    },
+    {
+      "id": "partners",
+      "description": "Scientist in a lab.",
+      "imageUrl": "https://media.sciencephoto.com/f0/32/79/07/f0327907-800px-wm.jpg",
+      "imageHint": "lab scientist"
+    },
+    {
+      "id": "team",
+      "description": "A smiling man.",
+      "imageUrl": "https://png.pngtree.com/png-clipart/20240629/original/pngtree-a-rich-smiling-saudi-arabian-man-wearing-traditional-dress-png-image_15447169.png",
+      "imageHint": "team portrait"
+    },
+    {
+      "id": "testimonials",
+      "description": "People looking at a laptop.",
+      "imageUrl": "https://img.freepik.com/free-photo/remote-work-freelance-concept-handsome-man-glasses-sits-with-notebook-laptop-studying_1258-245422.jpg?semt=ais_hybrid&w=740&q=80",
+      "imageHint": "happy customers"
+    },
+    {
+      "id": "careers",
+      "description": "A person being interviewed.",
+      "imageUrl": "https://media.istockphoto.com/id/1134018566/photo/man-having-a-business-meeting-and-signing-a-contract-recruitment-or-agreement.jpg?s=612x612&w=0&k=20&c=qZGuRs2OZQ6ALC6eHNPmOEOZTV_TOXHLSmJhFJhAfug=",
+      "imageHint": "job interview"
+    },
+    {
+      "id": "news",
+      "description": "A person reading a newspaper.",
+      "imageUrl": "https://st.depositphotos.com/1158045/2261/i/450/depositphotos_22617919-Man-reading-a-newspaper.jpg",
+      "imageHint": "reading newspaper"
+    },
+    {
+      "id": "contact-office",
+      "description": "A modern office space.",
+      "imageUrl": "https://gustavconcept.com/cdn/shop/articles/QIC_SYD_Unispace_QIC_resized_2_copy.jpg?v=1691409476",
+      "imageHint": "saudi office"
+    }
+  ]
+}
