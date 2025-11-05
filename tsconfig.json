@@ -13,15 +13,16 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "plugins": [{ "name": "next" }],
-    "baseUrl": ".",  // ✅ أضف هذا السطر
+    "plugins": [
+      { "name": "next" }
+    ],
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
-      
-      // ✅ عدّل المسار، احذف "a/" لأنها غلط
+      "@/*": ["./src/*"]
     }
   },
   "include": [
+    "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
