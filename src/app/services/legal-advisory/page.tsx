@@ -5,7 +5,7 @@ import ServicePage from "../../../components/service-page";
 import Image from 'next/image';
 import { PlaceHolderImages } from '../../../lib/placeholder-images';
 import { Card, CardContent, CardHeader, CardTitle } from '../../../components/ui/card';
-import { Landmark, ShieldCheck, FileSignature } from 'lucide-react';
+import { Landmark, ShieldCheck, FileSignature, Users, Home, Briefcase, Globe, Building2 } from 'lucide-react';
 import { useLanguage } from "../../../lib/hooks/use-language";
 
 export default function LegalAdvisoryPage() {
@@ -14,19 +14,34 @@ export default function LegalAdvisoryPage() {
   
   const advisoryAreas = [
     {
-      icon: <Landmark className="h-8 w-8 text-primary" />,
+      icon: <Users className="h-8 w-8 text-primary" />,
       title: t("laArea1Title"),
       description: t("laArea1Desc")
     },
     {
-      icon: <ShieldCheck className="h-8 w-8 text-primary" />,
+      icon: <Home className="h-8 w-8 text-primary" />,
       title: t("laArea2Title"),
       description: t("laArea2Desc")
     },
     {
-      icon: <FileSignature className="h-8 w-8 text-primary" />,
+      icon: <Briefcase className="h-8 w-8 text-primary" />,
       title: t("laArea3Title"),
       description: t("laArea3Desc")
+    },
+        {
+      icon: <ShieldCheck className="h-8 w-8 text-primary" />,
+      title: t("benefit4Title"),
+      description: t("benefit4Desc")
+    },
+        {
+      icon: <Globe className="h-8 w-8 text-primary" />,
+      title: t("benefit5Title"),
+      description: t("benefit5Desc")
+    },
+        {
+      icon: <Building2 className="h-8 w-8 text-primary" />,
+      title: t("benefit6Title"),
+      description: t("benefit6Desc")
     },
   ];
 

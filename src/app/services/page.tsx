@@ -102,16 +102,16 @@ export default function ServicesPage() {
                   </Card>
                 </div>
                 <div className={`animate-fade-in-up animation-delay-200 ${index % 2 !== 0 ? 'md:order-first' : ''}`}>
-                    {service.image && (
-                      <Image
-                          src={service.image.imageUrl}
-                          alt={service.image.description}
-                          width={800}
-                          height={600}
-                          className="rounded-lg shadow-xl"
-                          data-ai-hint={service.image.imageHint}
-                      />
-                    )}
+                  {service.image && (
+                    <Image
+                      src={service.image.imageUrl}
+                      alt={service.image.description}
+                      width={800}
+                      height={600}
+                      className="rounded-lg shadow-xl"
+                      data-ai-hint={service.image.imageHint}
+                    />
+                  )}
                 </div>
               </div>
             ))}

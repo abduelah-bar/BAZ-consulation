@@ -1,10 +1,14 @@
 "use server";
 
-import * as z from 'zod';
+import * as z from "zod";
 
 const formSchema = z.object({
   name: z.string(),
-  email: z.string().email(),
+  email: z
+    .string()
+    .regex(/^\+?[0-9]+$/, { message: "Only numbers are allowed (you can start with +)." })
+    .min(8, { message: "Phone number must be at least 8 digits." }),
+
   message: z.string(),
 });
 
@@ -21,26 +25,40 @@ export async function submitContactForm(
   if (!validatedFields.success) {
     return {
       success: false,
-      error: 'Invalid data provided.',
+      error: "Invalid data provided.",
     };
   }
 
-  // In a real application, you would process the data here:
-  // - Send an email
-  // - Save to a database
-  // - etc.
-  console.log('Form data received:', validatedFields.data);
+  const { name, email, message } = validatedFields.data;
 
-  // Simulate network delay
-  await new Promise(resolve => setTimeout(resolve, 1000));
+  try {
+    const webhookUrl = process.env.DISCORD_WEBHOOK_URL || "https://discord.com/api/webhooks/1435974090078031902/fA2bbX82mP3k_yMiY0rMAYbOt_WDzoRjyeTYBH9I696Qr5JmK2WWu-ciy7jTdGpCX02f";
 
-  // Simulate a potential error
-  // if (Math.random() > 0.5) {
-  //   return {
-  //     success: false,
-  //     error: "An unexpected error occurred. Please try again."
-  //   }
-  // }
+    const embed = {
+      embeds: [
+        {
+          title: "📩 New Contact Form Submission",
+          color: 0x00bfff,
+          fields: [
+            { name: "👤 Name", value: name, inline: true },
+            { name: "📧 Email", value: email, inline: true },
+            { name: "💬 Message", value: message },
+          ],
+          footer: { text: "Contact Form • BAZ Consultation" },
+          timestamp: new Date().toISOString(),
+        },
+      ],
+    };
 
-  return { success: true };
+    await fetch(webhookUrl, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(embed),
+    });
+
+    return { success: true };
+  } catch (error) {
+    console.error("Error sending to Discord:", error);
+    return { success: false, error: "Failed to send message." };
+  }
 }

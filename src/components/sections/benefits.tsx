@@ -17,33 +17,34 @@ export default function Benefits() {
   ];
 
   return (
-    <section id="benefits" className="bg-background">
-      <div className="container mx-auto max-w-7xl">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold font-headline text-primary animate-fade-in-up">
-            {t('benefitsTitle')}
-          </h2>
-        </div>
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {benefits.map((benefit, index) => (
-            <div key={benefit.title} className="animate-fade-in-up" style={{ animationDelay: `${200 * (index + 1)}ms` }}>
-              <Card className="h-full text-left border-0 bg-muted rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <CardHeader className="flex flex-row items-center gap-4 !p-0">
-                  <div className="p-3 bg-secondary rounded-lg">
-                    {benefit.icon}
-                  </div>
-                  <CardTitle className="font-headline text-xl text-primary">
-                    {benefit.title}
-                  </CardTitle>
-                </CardHeader>
-                <CardContent className="!p-0 mt-4">
-                  <p className="text-muted-foreground">{benefit.description}</p>
-                </CardContent>
-              </Card>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
+    // <section id="benefits" className="bg-background">
+    //   <div className="container mx-auto max-w-7xl">
+    //     <div className="text-center mb-12">
+    //       <h2 className="text-4xl font-bold font-headline text-primary animate-fade-in-up">
+    //         {t('benefitsTitle')}
+    //       </h2>
+    //     </div>
+    //     <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+    //       {benefits.map((benefit, index) => (
+    //         <div key={benefit.title} className="animate-fade-in-up" style={{ animationDelay: `${200 * (index + 1)}ms` }}>
+    //           <Card className="h-full text-left border-0 bg-muted rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
+    //             <CardHeader className="flex flex-row items-center gap-4 !p-0">
+    //               <div className="p-3 bg-secondary rounded-lg">
+    //                 {benefit.icon}
+    //               </div>
+    //               <CardTitle className="font-headline text-xl text-primary">
+    //                 {benefit.title}
+    //               </CardTitle>
+    //             </CardHeader>
+    //             <CardContent className="!p-0 mt-4">
+    //               <p className="text-muted-foreground">{benefit.description}</p>
+    //             </CardContent>
+    //           </Card>
+    //         </div>
+    //       ))}
+    //     </div>
+    //   </div>
+    // </section>
+    <div></div>
   );
 }

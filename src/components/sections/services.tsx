@@ -2,7 +2,7 @@
 
 import { useLanguage } from '../../lib/hooks/use-language';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '../ui/card';
-import { Briefcase, Landmark, PieChart, LineChart } from 'lucide-react';
+import { Briefcase, Landmark, PieChart, LineChart, Users, Home, ShieldCheck, Globe, Building2  } from 'lucide-react';
 import Link from 'next/link';
 import { Button } from '../ui/button';
 import { ArrowRight } from 'lucide-react';

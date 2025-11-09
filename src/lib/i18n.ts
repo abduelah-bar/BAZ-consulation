@@ -16,9 +16,9 @@ export const translations = {
 
   // Hero Section
   heroPreTitle: {
-    en: "Unlock Your Future in Saudi Arabia",
-    tr: "Suudi Arabistan'daki Geleceğinizin Kilidini Açın",
-    ar: "افتح مستقبلك في المملكة العربية السعودية",
+    en: "Start Your Future in Saudi Arabia",
+    tr: "Suudi Arabistan'daki Geleceğinizi Başlayın",
+    ar: "ابدأ مستقبلك في المملكة العربية السعودية",
   },
   heroTitle: {
     en: "Expert Guidance for Saudi Vision 2030",
@@ -38,16 +38,16 @@ export const translations = {
 
   // About Program Section
   aboutProgramTitle: {
-    en: "What is the Saudi Premium Residency?",
-    tr: "Suudi Premium İkamet Nedir?",
-    ar: "ما هي الإقامة المميزة في السعودية؟",
+    en: "Saudi Vision 2030: Shaping the Future of Investment and Innovation",
+    tr: "Suudi 2030 Vizyonu: Yatırım ve Yeniliğin Geleceğini Şekillendirmek",
+    ar: "رؤية السعودية 2030: تشكيل مستقبل الاستثمار والابتكار",
   },
   aboutProgramDesc: {
-    en: "The Saudi Premium Residency, also known as the 'Saudi Green Card', is a significant initiative under Saudi Vision 2030. It grants approved foreign nationals the right to live, work, and own businesses and property in Saudi Arabia without a sponsor, opening up unprecedented opportunities for investors and talented individuals.",
-    tr: "Suudi Yeşil Kartı olarak da bilinen Suudi Premium İkametgahı, Suudi Vizyon 2030 kapsamındaki önemli bir girişimdir. Onaylanmış yabancı uyruklulara sponsor olmadan Suudi Arabistan'da yaşama, çalışma ve iş ile mülk sahibi olma hakkı vererek yatırımcılar ve yetenekli bireyler için benzeri görülmemiş fırsatlar sunar.",
-    ar: "تعد الإقامة المميزة في السعودية، المعروفة أيضًا باسم 'البطاقة الخضراء السعودية'، مبادرة هامة ضمن رؤية السعودية 2030. تمنح هذه الإقامة الأجانب المعتمدين الحق في العيش والعمل وتملك الأعمال والعقارات في المملكة العربية السعودية دون الحاجة إلى كفيل، مما يفتح فرصًا غير مسبوقة للمستثمرين والمواهب.",
+    en: "Saudi Vision 2030 is a transformative roadmap designed to diversify the Kingdom’s economy, reduce its dependence on oil, and build a vibrant society driven by innovation and sustainability. Through this vision, Saudi Arabia aims to attract global talent, empower investors, and create a thriving environment where ambition meets opportunity.",
+    tr: "Suudi Arabistan 2030 Vizyonu, Krallığın ekonomisini çeşitlendirmeyi, petrole bağımlılığı azaltmayı ve yenilik ile sürdürülebilirlik odaklı canlı bir toplum inşa etmeyi amaçlayan dönüştürücü bir yol haritasıdır. Bu vizyon aracılığıyla Suudi Arabistan, küresel yetenekleri çekmeyi, yatırımcıları güçlendirmeyi ve hırsın fırsatla buluştuğu gelişen bir ortam yaratmayı hedeflemektedir.",
+    ar: "رؤية السعودية 2030 هي خارطة طريق طموحة تهدف إلى تنويع اقتصاد المملكة وتقليل اعتمادها على النفط وبناء مجتمع حيوي قائم على الابتكار والاستدامة. من خلال هذه الرؤية، تسعى المملكة إلى جذب الكفاءات العالمية وتمكين المستثمرين وخلق بيئة مزدهرة تلتقي فيها الطموحات بالفرص.",
   },
-  
+
   // Services Section (General)
   servicesTitle: { en: "Our Core Services", tr: "Ana Hizmetlerimiz", ar: "خدماتنا الأساسية" },
   servicesSubtitle: { en: "We provide end-to-end solutions to navigate the Saudi Arabian market.", tr: "Suudi Arabistan pazarında yolunuzu bulmanız için uçtan uca çözümler sunuyoruz.", ar: "نقدم حلولاً متكاملة لدخول السوق السعودي." },
@@ -57,13 +57,21 @@ export const translations = {
   serviceBusinessSetupDesc: { en: "Comprehensive support for establishing your company, from legal structuring to final registration.", tr: "Hukuki yapılandırmadan nihai tescile kadar şirketinizin kurulması için kapsamlı destek.", ar: "دعم شامل لتأسيس شركتك، بدءًا من الهيكلة القانونية وحتى التسجيل النهائي." },
 
   // Service: Legal Services
-  serviceLegalTitle: { en: "Legal Advisory", tr: "Hukuki Danışmanlık", ar: "الاستشارات القانونية" },
-  serviceLegalDesc: { en: "Expert advice on corporate law, compliance, and contracts to protect your interests.", tr: "Çıkarlarınızı korumak için şirketler hukuku, uyumluluk ve sözleşmeler konusunda uzman tavsiyesi.", ar: "مشورة الخبراء بشأن قانون الشركات والامتثال والعقود لحماية مصالحك." },
+  serviceLegalTitle: {
+    en: "Premium Residency",
+    tr: "Premium Oturum",
+    ar: "الإقامة المميزة"
+  },
 
+  serviceLegalDesc: {
+    en: "Exclusive assistance in obtaining premium residency in Saudi Arabia through investment or special programs.",
+    tr: "Yatırım veya özel programlar aracılığıyla Saudi Arabistanda premium oturum izni alma konusunda özel destek.",
+    ar: "مساعدة حصرية للحصول على الإقامة المميزة في السعودية من خلال الاستثمار أو البرامج الخاصة."
+  },
   // Service: Market Analysis
   serviceMarketAnalysisTitle: { en: "Market Analysis", tr: "Piyasa Analizi", ar: "دراسة جدوى" },
   serviceMarketAnalysisDesc: { en: "In-depth feasibility studies and market research to ensure your venture is positioned for success.", tr: "Girişiminizin başarıya ulaşması için derinlemesine fizibilite çalışmaları ve pazar araştırması.", ar: "دراسات جدوى متعمقة وأبحاث سوق لضمان نجاح مشروعك." },
-  
+
   // Service: Investment Opportunities
   serviceInvestmentOpportunitiesTitle: { en: "Investment Opportunities", tr: "Yatırım Fırsatları", ar: "الفرص الاستثمارية" },
   serviceInvestmentOpportunitiesDesc: { en: "Helping startups and corporations to establish their business in Saudi Arabia.", tr: "Startup'ların ve şirketlerin Suudi Arabistan'da işlerini kurmalarına yardımcı olmak.", ar: "مساعدة الشركات الناشئة والشركات الكبرى على تأسيس أعمالها في المملكة العربية السعودية." },
@@ -71,7 +79,12 @@ export const translations = {
   // Benefits Section
   benefitsTitle: { en: "Key Benefits of Premium Residency", tr: "Premium İkametin Temel Avantajları", ar: "المزايا الرئيسية للإقامة المميزة" },
   benefit1Title: { en: "Family Residency", tr: "Aile İkameti", ar: "إقامة الأسرة" },
-  benefit1Desc: { en: "Reside in KSA with family members without a sponsor.", tr: "Aile üyeleriyle birlikte sponsora ihtiyaç duymadan KSA'da ikamet edin.", ar: "الإقامة في المملكة مع أفراد الأسرة دون الحاجة لكفيل." },
+  benefit1Desc: {
+    en: "Reside in KSA with family members without a sponsor, with the option to host dependents or pay their fees.",
+    tr: "Aile üyeleriyle birlikte sponsora ihtiyaç duymadan KSA'da ikamet edin; refakatçileri ağırlama veya ücretlerini ödeme seçeneğiyle.",
+    ar: "الإقامة في المملكة مع أفراد الأسرة دون الحاجة لكفيل، مع إمكانية استضافة المرافقين أو سداد رسومهم."
+  },
+
   benefit2Title: { en: "Own Property & Vehicles", tr: "Mülk ve Araç Sahibi Olma", ar: "تملك العقارات والمركبات" },
   benefit2Desc: { en: "Own real estate for any purpose and own private vehicles.", tr: "Herhangi bir amaçla gayrimenkul ve özel araç sahibi olun.", ar: "تملك العقارات لأي غرض وامتلاك المركبات الخاصة." },
   benefit3Title: { en: "Work & Invest Freely", tr: "Özgürce Çalış ve Yatırım Yap", ar: "العمل والاستثمار بحرية" },
@@ -95,18 +108,18 @@ export const translations = {
     ar: "هل لديك أسئلة؟ مستشارونا الخبراء جاهزون لمساعدتك في رحلتك إلى المملكة العربية السعودية.",
   },
   formName: { en: "Full Name", tr: "Tam Ad", ar: "الاسم الكامل" },
-  formEmail: { en: "Email Address", tr: "E-posta Adresi", ar: "عنوان البريد الإلكتروني" },
+  formEmail: { en: "Phone number with country code", tr: "Ülke koduyla telefon numarası", ar: "رقم الهاتف مع رمز الدولة" },
   formMessage: { en: "Your Message", tr: "Mesajınız", ar: "رسالتك" },
   formSubmit: { en: "Send Message", tr: "Mesaj Gönder", ar: "إرسال الرسالة" },
   formSuccess: { en: "Message Sent!", tr: "Mesaj gönderildi!", ar: "تم إرسال الرسالة!" },
   formSuccessDesc: { en: "Thank you for your inquiry. Our team will get back to you shortly.", tr: "İlginiz için teşekkür ederiz. Ekibimiz kısa süre içinde size geri dönecektir.", ar: "شكرا لاستفسارك. سيقوم فريقنا بالرد عليك قريبًا." },
   formError: { en: "Failed to send message.", tr: "Mesaj gönderilemedi.", ar: "فشل إرسال الرسالة." },
   namePlaceholder: { en: "Your full name", tr: "Tam adınız", ar: "اسمك الكامل" },
-  emailPlaceholder: { en: "your.email@example.com", tr: "eposta.adresiniz@ornek.com", ar: "your.email@example.com" },
+  emailPlaceholder: { en: "+00000000000", tr: "+00000000000", ar: "+00000000000" },
   messagePlaceholder: { en: "Tell us how we can help you...", tr: "Size nasıl yardımcı olabileceğimizi anlatın...", ar: "أخبرنا كيف يمكننا مساعدتك..." },
-  
+
   // Footer
-  footerDescription: { en: "Pioneering business and legal solutions in Saudi Arabia.", tr: "Suudi Arabistan'da öncü iş ve hukuk çözümleri.", ar: "حلول رائدة في مجال الأعمال والقانون في المملكة العربية السعودية."},
+  footerDescription: { en: "Pioneering business and legal solutions in Saudi Arabia.", tr: "Suudi Arabistan'da öncü iş ve hukuk çözümleri.", ar: "حلول رائدة في مجال الأعمال والقانون في المملكة العربية السعودية." },
   footerQuickLinks: { en: "Quick Links", tr: "Hızlı Bağlantılar", ar: "روابط سريعة" },
   footerContactUs: { en: "Contact Us", tr: "Bize Ulaşın", ar: "اتصل بنا" },
   footerAddress: { en: "Riyadh, Saudi Arabia", tr: "Riyad, Suudi Arabistan", ar: "الرياض، المملكة العربية السعودية" },
@@ -117,7 +130,7 @@ export const translations = {
   footerRights: { en: "All rights reserved.", tr: "Tüm hakları saklıdır.", ar: "كل الحقوق محفوظة." },
 
   // About Us Page
-  aboutUsTitle: { en: "Pioneering Your Success in Saudi Arabia", tr: "Suudi Arabistan'daki Başarınızın Öncüsü", ar: "رواد نجاحك في المملكة العربية السعودية" },
+  aboutUsTitle: { en: "Pioneering Your Success in Saudi Arabia", tr: "Suudi Arabistan'daki Başarınızın Öncüsü", ar: "شركاء نجاحك في المملكة العربية السعودية" },
   aboutUsSubtitle: { en: "Your trusted partner for navigating the business and legal landscape of the Kingdom.", tr: "Krallığın iş ve hukuk ortamında gezinmek için güvenilir ortağınız.", ar: "شريكك الموثوق به للتنقل في المشهد التجاري والقانوني للمملكة." },
   ourCompanyTitle: { en: "Our Company", tr: "Şirketimiz", ar: "شركتنا" },
   ourCompanyDesc: { en: "BAZ CONSULTING is a leading consultancy firm specializing in providing comprehensive services for individuals and businesses looking to establish a presence in Saudi Arabia. Our team of experts is dedicated to ensuring a seamless and successful journey for our clients.", tr: "BAZ DANIŞMANLIK, Suudi Arabistan'da varlık göstermek isteyen bireyler ve işletmeler için kapsamlı hizmetler sunma konusunda uzmanlaşmış lider bir danışmanlık firmasıdır. Uzman ekibimiz, müşterilerimiz için sorunsuz ve başarılı bir yolculuk sağlamaya kendini adamıştır.", ar: "باز للاستشارات هي شركة استشارية رائدة متخصصة في تقديم خدمات شاملة للأفراد والشركات التي تتطلع إلى تأسيس وجود لها في المملكة العربية السعودية. فريقنا من الخبراء مكرس لضمان رحلة سلسة وناجحة لعملائنا." },
@@ -127,7 +140,7 @@ export const translations = {
   // Services Page
   servicesPageTitle: { en: "Comprehensive Support for Your Ambitions", tr: "Hedefleriniz İçin Kapsamlı Destek", ar: "دعم شامل لطموحاتك" },
   servicesPageSubtitle: { en: "From business incorporation to legal complexities, we provide end-to-end solutions.", tr: "İş kurmaktan hukuki karmaşıklıklara kadar uçtan uca çözümler sunuyoruz.", ar: "من تأسيس الشركات إلى التعقيدات القانونية، نقدم حلولاً متكاملة." },
-  
+
   // FAQ Page
   faqPageTitle: { en: "Frequently Asked Questions", tr: "Sıkça Sorulan Sorular", ar: "الأسئلة الشائعة" },
   faqPageSubtitle: { en: "Find answers to common questions about the Saudi Premium Residency and our services.", tr: "Suudi Premium İkametgahı ve hizmetlerimiz hakkında sıkça sorulan soruların yanıtlarını bulun.", ar: "ابحث عن إجابات للأسئلة الشائعة حول الإقامة المميزة في السعودية وخدماتنا." },
@@ -184,14 +197,27 @@ export const translations = {
   ioArea3Desc: { en: "We facilitate joint ventures and strategic alliances between international investors and established local businesses.", tr: "Uluslararası yatırımcılar ve yerleşik yerel işletmeler arasında ortak girişimleri ve stratejik ittifakları kolaylaştırıyoruz.", ar: "نحن نسهل المشاريع المشتركة والتحالفات الاستراتيجية بين المستثمرين الدوليين والشركات المحلية القائمة." },
 
   // Legal Advisory Page
-  laDetailTitle: { en: "Protecting Your Interests in the Kingdom", tr: "Krallık'taki Çıkarlarınızı Koruma", ar: "حماية مصالحك في المملكة" },
-  laDetailDesc: { en: "Navigating the legal framework of a new country is crucial for success. BAZ CONSULTING offers expert legal advisory on corporate law, regulatory compliance, and contractual matters. Our experienced legal team works to protect your interests and ensure your operations are fully compliant with Saudi Arabian law.", tr: "Yeni bir ülkenin yasal çerçevesinde gezinmek başarı için çok önemlidir. BAZ DANIŞMANLIK, şirketler hukuku, mevzuata uygunluk ve sözleşme konularında uzman hukuki danışmanlık hizmeti sunmaktadır. Deneyimli hukuk ekibimiz, çıkarlarınızı korumak ve operasyonlarınızın Suudi Arabistan yasalarına tam olarak uymasını sağlamak için çalışır.", ar: "يعد التنقل في الإطار القانوني لبلد جديد أمرًا بالغ الأهمية للنجاح. تقدم باز للاستشارات استشارات قانونية متخصصة في قانون الشركات والامتثال التنظيمي والمسائل التعاقدية. يعمل فريقنا القانوني المتمرس على حماية مصالحك وضمان امتثال عملياتك بشكل كامل لقوانين المملكة العربية السعودية." },
-  laAdvisoryTitle: { en: "Key Advisory Areas", tr: "Ana Danışmanlık Alanları", ar: "مجالات الاستشارة الرئيسية" },
-  laAdvisorySubtitle: { en: "Comprehensive legal support tailored for your business needs.", tr: "İş ihtiyaçlarınıza göre uyarlanmış kapsamlı hukuki destek.", ar: "دعم قانوني شامل مصمم خصيصًا لاحتياجات عملك." },
-  laArea1Title: { en: "Corporate & Commercial Law", tr: "Şirketler ve Ticaret Hukuku", ar: "قانون الشركات والتجارة" },
-  laArea1Desc: { en: "Guidance on company formation, mergers, acquisitions, and all commercial agreements to ensure your business operates on a solid legal footing.", tr: "İşletmenizin sağlam bir yasal zeminde faaliyet göstermesini sağlamak için şirket kuruluşu, birleşmeler, devralmalar ve tüm ticari anlaşmalar hakkında rehberlik.", ar: "إرشادات حول تأسيس الشركات وعمليات الدمج والاستحواذ وجميع الاتفاقيات التجارية لضمان عمل عملك على أساس قانوني متين." },
-  laArea2Title: { en: "Regulatory Compliance", tr: "Mevzuata Uygunluk", ar: "الامتثال التنظيمي" },
-  laArea2Desc: { en: "We keep you updated and compliant with the evolving Saudi legal landscape, including labor laws, foreign investment regulations, and data protection.", tr: "İş kanunları, yabancı yatırım düzenlemeleri ve veri koruma dahil olmak üzere gelişen Suudi yasal ortamı hakkında sizi güncel ve uyumlu tutuyoruz.", ar: "نبقيك على اطلاع دائم ومتوافق مع المشهد القانوني السعودي المتطور، بما في ذلك قوانين العمل ولوائح الاستثمار الأجنبي وحماية البيانات." },
+  laDetailTitle: {
+    en: "What is the Saudi Premium Residency?",
+    tr: "Suudi Premium İkamet Nedir?",
+    ar: "ما هي الإقامة المميزة في السعودية؟",
+  },
+
+  laDetailDesc: {
+    en: "The Saudi Premium Residency, also known as the 'Saudi Green Card', is a significant initiative under Saudi Vision 2030. It grants approved foreign nationals the right to live, work, and own businesses and property in Saudi Arabia without a sponsor, opening up unprecedented opportunities for investors and talented individuals.",
+    tr: "Suudi Yeşil Kartı olarak da bilinen Suudi Premium İkametgahı, Suudi Vizyon 2030 kapsamındaki önemli bir girişimdir. Onaylanmış yabancı uyruklulara sponsor olmadan Suudi Arabistan'da yaşama, çalışma ve iş ile mülk sahibi olma hakkı vererek yatırımcılar ve yetenekli bireyler için benzeri görülmemiş fırsatlar sunar.",
+    ar: "تعد الإقامة المميزة في السعودية، المعروفة أيضًا باسم 'البطاقة الخضراء السعودية'، مبادرة هامة ضمن رؤية السعودية 2030. تمنح هذه الإقامة الأجانب المعتمدين الحق في العيش والعمل وتملك الأعمال والعقارات في المملكة العربية السعودية دون الحاجة إلى كفيل، مما يفتح فرصًا غير مسبوقة للمستثمرين والمواهب.",
+  },
+  laAdvisoryTitle: { en: "Key Benefits of Premium Residency", tr: "Premium İkametin Temel Avantajları", ar: "المزايا الرئيسية للإقامة المميزة" },
+  laAdvisorySubtitle: { en: "", tr: "", ar: "" },
+  laArea1Title: { en: "Family Residency", tr: "Aile İkameti", ar: "إقامة الأسرة" },
+  laArea1Desc: {
+    en: "Reside in KSA with family members without a sponsor, with the option to host dependents or pay their fees.",
+    tr: "Aile üyeleriyle birlikte sponsora ihtiyaç duymadan KSA'da ikamet edin; refakatçileri ağırlama veya ücretlerini ödeme seçeneğiyle.",
+    ar: "الإقامة في المملكة مع أفراد الأسرة دون الحاجة لكفيل، مع إمكانية استضافة المرافقين أو سداد رسومهم."
+  },
+  laArea2Title: { en: "Work in the private sector, switch jobs, and invest in capital markets.", tr: "Özel sektörde çalışın, iş değiştirin ve sermaye piyasalarına yatırım yapın.", ar: "العمل في القطاع الخاص، والتنقل بين الوظائف، والاستثمار في أسواق المال." },
+  laArea2Desc: { en: "Own real estate for any purpose and own private vehicles.", tr: "Herhangi bir amaçla gayrimenkul ve özel araç sahibi olun.", ar: "تملك العقارات لأي غرض وامتلاك المركبات الخاصة." },
   laArea3Title: { en: "Contractual Agreements", tr: "Sözleşmesel Anlaşmalar", ar: "الاتفاقيات التعاقدية" },
   laArea3Desc: { en: "Drafting, reviewing, and negotiating contracts to protect your interests in all business dealings, from partnerships to client service agreements.", tr: "Ortaklıklardan müşteri hizmet sözleşmelerine kadar tüm iş ilişkilerinde çıkarlarınızı korumak için sözleşmeler hazırlama, inceleme ve müzakere etme.", ar: "صياغة ومراجعة والتفاوض على العقود لحماية مصالحك في جميع التعاملات التجارية، من الشراكات إلى اتفاقيات خدمة العملاء." },
 
